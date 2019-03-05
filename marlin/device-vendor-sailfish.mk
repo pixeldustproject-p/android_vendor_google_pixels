@@ -1,17 +1,17 @@
-# Copyright (C) 2019 The Pixel Dust Project
+# Copyright (C) 2019 The PixelDust Project
 #
-# Licensed under the Apache License, Version 2.0 (the "License");
+# Licensed under the Apache License, Version 2.0 (the License);
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-#      http://www.apache.org/licenses/LICENSE-2.0
+#    http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
+# distributed under the License is distributed on an AS IS BASIS,
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
+
 $(call inherit-product, vendor/google_devices/sailfish/sailfish-vendor-blobs.mk)
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -68,19 +68,15 @@ PRODUCT_PACKAGES += \
 # Prebuilt APKs/JARs from 'proprietary/app'
 PRODUCT_PACKAGES += \
     ims \
-    SSRestartDetector \
     VZWAPNLib
 
 # Prebuilt APKs libs symlinks from 'proprietary/app'
 PRODUCT_PACKAGES += \
-    libimscamera_jni_64.so \
-    libimsmedia_jni_64.so
+    libimsmedia_jni_64.so \
+    libimscamera_jni_64.so
 
 # Prebuilt APKs/JARs from 'proprietary/framework'
 PRODUCT_PACKAGES += \
-    libhwinfo \
-    LowPowerMonitorDeviceInterface \
-    LowPowerMonitorDeviceStub \
     PowerAnomalyDataModemInterface \
     PowerAnomalyStub \
     qcrilhook \
@@ -90,7 +86,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AppDirectedSMSService \
     Asdiv \
-    CarrierServices \
     CarrierSetup \
     CNEService \
     ConnMO \
@@ -115,8 +110,8 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt APKs libs symlinks from 'proprietary/priv-app'
 PRODUCT_PACKAGES += \
-    libdmjavaplugin_32.so \
-    libdmengine_32.so
+    libdmengine_32.so \
+    libdmjavaplugin_32.so
 
 # Standalone symbolic links
 PRODUCT_PACKAGES += \
@@ -148,3 +143,7 @@ PRODUCT_PACKAGES += \
     vr_hwc \
     performanced \
     virtual_touchpad
+
+# Partitions to add in AB OTA images
+AB_OTA_PARTITIONS += vendor
+
