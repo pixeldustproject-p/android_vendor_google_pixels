@@ -135,7 +135,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/marlin/vendor/bin/nanohub_slpi:$(TARGET_COPY_OUT_VENDOR)/bin/nanohub_slpi:google \
     vendor/google_devices/marlin/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd:google \
     vendor/google_devices/marlin/vendor/bin/nl_listener:$(TARGET_COPY_OUT_VENDOR)/bin/nl_listener:google \
-    vendor/google_devices/marlin/vendor/bin/perfd:$(TARGET_COPY_OUT_VENDOR)/bin/perfd:google \
     vendor/google_devices/marlin/vendor/bin/PktRspTest:$(TARGET_COPY_OUT_VENDOR)/bin/PktRspTest:google \
     vendor/google_devices/marlin/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy:google \
     vendor/google_devices/marlin/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service:google \
@@ -246,7 +245,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/marlin/vendor/etc/mkshrc:$(TARGET_COPY_OUT_VENDOR)/etc/mkshrc:google \
     vendor/google_devices/marlin/vendor/etc/modem_stat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/modem_stat.conf:google \
     vendor/google_devices/marlin/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf:google \
-    vendor/google_devices/marlin/vendor/etc/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile0.conf:google \
     vendor/google_devices/marlin/vendor/etc/permissions/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml:google \
     vendor/google_devices/marlin/vendor/etc/permissions/android.hardware.audio.pro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.pro.xml:google \
     vendor/google_devices/marlin/vendor/etc/permissions/android.hardware.bluetooth_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth_le.xml:google \
@@ -620,7 +618,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/marlin/vendor/lib64/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi.so:google \
     vendor/google_devices/marlin/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so:google \
     vendor/google_devices/marlin/vendor/lib64/libqservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqservice.so:google \
-    vendor/google_devices/marlin/vendor/lib64/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client.so:google \
     vendor/google_devices/marlin/vendor/lib64/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libquipc_os_api.so:google \
     vendor/google_devices/marlin/vendor/lib64/lib-rcsjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rcsjni.so:google \
     vendor/google_devices/marlin/vendor/lib64/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-ril.so:google \
@@ -964,7 +961,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/marlin/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so:google \
     vendor/google_devices/marlin/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so:google \
     vendor/google_devices/marlin/vendor/lib/libqservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqservice.so:google \
-    vendor/google_devices/marlin/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so:google \
     vendor/google_devices/marlin/vendor/lib/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libquipc_os_api.so:google \
     vendor/google_devices/marlin/vendor/lib/lib-rcsjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rcsjni.so:google \
     vendor/google_devices/marlin/vendor/lib/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libreference-ril.so:google \
